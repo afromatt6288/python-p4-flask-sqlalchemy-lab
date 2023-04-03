@@ -19,7 +19,11 @@ def home():
 
 @app.route('/animal/<int:id>')
 def animal_by_id(id):
-    return ''
+    return f'''
+    <ul>
+    <li></li>
+    </ul>
+    '''
 
 @app.route('/zookeeper/<int:id>')
 def zookeeper_by_id(id):
